@@ -1,0 +1,23 @@
+# SwiftFormat configuration for KeyRow
+# Docs: https://github.com/nicklockwood/SwiftFormat/blob/master/Configuration.md
+
+--swiftversion 5.9
+--indent 4
+--linebreaks lf
+--maxwidth 100
+
+# enabled rules (all by default, minus a few noisy ones for SwiftUI code)
+--disable blankLinesAtStartOfScope, blankLinesAtEndOfScope
+
+# options
+--self remove
+--semicolons inline
+--commas inline
+--trimwhitespace always
+--header ignore
+
+--exclude .build,DerivedData,.git
+
+
+
+
